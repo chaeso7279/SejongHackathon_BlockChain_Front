@@ -1,0 +1,13 @@
+.nav{
+    font-family: 'NanumSquare EB';
+    font-size: 1.5em;
+
+    margin-top: 0.5625em;
+    margin-bottom: 0.5625em;
+    
+}
+.nav a{
+    margin-left: 1.6em;
+    text-decoration: none;
+    color: #707070;
+}

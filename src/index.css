@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face { font-family: 'NanumSquare R'; src: url(./fonts/Nanumsquare_ac_TTF/NanumSquare_acR.ttf) format('truetype'); }
+@font-face { font-family: 'NanumSquare EB'; src: url(./fonts/Nanumsquare_ac_TTF/NanumSquare_acEB.ttf) format('truetype'); }
+@font-face { font-family: 'NanumSquare B'; src: url(./fonts/Nanumsquare_ac_TTF/NanumSquare_acB.ttf) format('truetype'); }
+@font-face { font-family: 'NanumSquare L'; src: url(./fonts/Nanumsquare_ac_TTF/NanumSquare_acL.ttf) format('truetype'); }
+
+@font-face { font-family: 'GmarketSans B'; src: url(./fonts/GmarketSansTTF/GmarketSansTTFBold.ttf) format('truetype'); }
+@font-face { font-family: 'GmarketSans M'; src: url(./fonts/GmarketSansTTF/GmarketSansTTFMedium.ttf) format('truetype'); }
+@font-face { font-family: 'GmarketSans L'; src: url(./fonts/GmarketSansTTF/GmarketSansTTFLight.ttf) format('truetype'); }
