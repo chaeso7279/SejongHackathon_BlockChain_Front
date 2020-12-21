@@ -9,13 +9,13 @@ import ShareItemList from './routes/ShareItemList';
 import ShareItemDetail from './routes/ShareItemDetail';
 import ShareTalentList from './routes/ShareTalentList';
 import ShareTalentDetail from './routes/ShareTalentDetail';
-import Navigation from './components/Navigation';
 
 function App() {
   let router;
   const navigate = (pageName = '') =>{
     router.history.push('/'+pageName);
   }
+
 
   return (
       <HashRouter ref = {(r)=>{router = r;}}>

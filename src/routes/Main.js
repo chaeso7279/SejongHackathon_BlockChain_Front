@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css'
-import TopBar from '../components/Navigation'
+import TopBar from '../components/TopBar'
 
 class Main extends React.Component{
     render(){
@@ -9,8 +9,6 @@ class Main extends React.Component{
               <div className="topbar">
                     <TopBar/>
                 </div>
-
-                
             </div>
             
         );

@@ -5,8 +5,6 @@ import './Navigation.css';
 
 class Navigation extends React.Component{
     render(){
-        console.log("vh는? "+ window.innerHeight);
-        console.log("vw는? "+ window.innerWidth);
         return(
             <div>
                 <div className="nav">

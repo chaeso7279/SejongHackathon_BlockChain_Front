@@ -1,11 +1,13 @@
 .Main{
     margin-top: 0px;
+
+    height: 200vh;
 }
 
 .topbar{
     position:fixed;
 
 
-    left:0%;
+    left:0;
     right:0;
 }
