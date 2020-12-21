@@ -1,9 +1,12 @@
 import React from 'react';
+import ReactDOM from 'react';
 import {Link} from 'react-router-dom';
 import './Navigation.css';
 
 class Navigation extends React.Component{
     render(){
+        console.log("vh는? "+ window.innerHeight);
+        console.log("vw는? "+ window.innerWidth);
         return(
             <div>
                 <div className="nav">
