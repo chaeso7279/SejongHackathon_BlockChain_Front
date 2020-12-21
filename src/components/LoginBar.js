@@ -16,17 +16,19 @@ class LoginBar extends React.Component{
 
     UnLoginedLoginbar = () => (
         <div className="login_Bar">
-            <button>로그인</button>
-            <button>회원가입</button>
+            <span>로그인</span>
+            <span>/</span>
+            <span>회원가입</span>
         </div>
     );
 
     LoginedLoginbar = () => (
         <div className="login_Bar">
-            <div>오혜린님</div>
-            <button>로그아웃</button>
-            <div>63,700</div>
-            <button>충전하기</button>
+            <span>63,700</span>
+            <button className="btn_charge">충전하기</button>
+            
+            <span>오혜린님</span>
+            <button className="btn_logout">로그아웃</button>
         </div>
     );
 

@@ -1,7 +1,35 @@
-.loginbar{
-    flex-direction:row;
-    display:inline-block;
+.login_Bar{
+    font-family: 'NanumSquare R'
 }
 
-.loginbar button{
+.login_Bar span{
+    margin-left: 0.625rem
+}
+
+.btn_charge{
+    color: '#707070';
+    background-color: white;
+    font-size: 0.9375rem;
+    font-family: 'NanumSquare R';
+
+    padding: 0.3125rem 0.625rem;
+    margin-left: 0.625rem;
+
+    border-radius: 0.625rem;
+    border: solid 1px #707070;
+    outline:0;
+}
+
+.btn_logout{
+    color: white;
+    background-color: #324755;
+    font-size: 0.9375rem;
+    font-family: 'NanumSquare R';
+
+    padding: 0.3125rem 0.625rem;
+    margin-left: 0.625rem;
+
+    border-radius: 0.625rem;
+    border: solid 1px #324755;
+    outline:0;
 }
