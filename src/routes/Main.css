@@ -1,17 +1,17 @@
 .Main{
     margin-top: 0px;
-
     height: 200vh;
 }
 
 .topbar{
     position:fixed;
 
-
     left:0;
-    right:0;
+    top:0;
 }
 
+
 .main_banner{
-    width: 1000px;
+    margin-top: 8.563rem;
+    width: 100vw;
 }

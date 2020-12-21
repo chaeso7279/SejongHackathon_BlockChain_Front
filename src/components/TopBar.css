@@ -1,4 +1,22 @@
+.topbar{
+    background-color: white;
+
+    width: 100vw;
+}
+
+.topbar_wraper{
+    float: right;
+    orientation: vertical;
+    
+    margin-top: 3.75rem;
+    margin-right: 12.5rem;
+}
 .topbar_login{
-    margin-left: 0;
-    margin-right: 200px;
+    float:right;
+    clear: both;
+
+    margin-bottom: 0.3125rem;
+}
+.topbar_nav{
+    clear: both;
 }
