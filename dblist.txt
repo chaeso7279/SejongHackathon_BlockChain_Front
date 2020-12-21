@@ -1,0 +1,88 @@
+1. 메인페이지 (select) - main.php
+중고물품
+: 사진, 제목, 가격
+재능공유
+: 제목, 사진
+유저
+: 이름
+money
+:currentMoney
+
+2. 중고물품교환페이지 (select) - ShareItemList.php
+중고물품
+: 사진, 제목, 가격
+
+3. 중고물품교환 상세 페이지 (select) - ShareItemDetails.php
+중고물품
+: 사진, 제목, 내용, 가격
+유저
+: 이름, 이메일
+
+4. 중고물품교환 등록 페이지 (insert)
+중고물품
+: 사진, 제목, 내용, 가격
+
+5. 재능 공유 상세 페이지 (select) - ShareTalentDetails.php
+재능공유
+: 제목, 사진, 내용
+유저
+: 이름, 이메일, 학과
+
+6. 재능 공유 등록 페이지 (insert)
+재능공유
+: 제목, 사진, 내용
+
+7. 재능 공유 페이지 (select) - ShareTalent.php
+재능공유
+: 제목, 사진
+
+8. 마이페이지 (select)
+화폐
+: currentMoney, depositandwithdraw
+마일리지
+: currentMileage, M_depositwithdraw, M_history
+마일리지apply
+: 제목, managerok, m_milieage
+
+9. 마일리지 신청 페이지 (select)
+mileageapply
+: m_applyID, 제목, 학번->이름, 날짜  
+
+10. 마일리지 신청 상세 페이지 (select) - MileageApplyPage.php
+mileageapply
+: 제목, m_usetime, m_content
+
+11. 마일리지 신청 - 재능 공유 평가 페이지 (select)
+mileageapply
+: 제목, m_usetime, m_content
+(insert)
+ShareTalentAssess
+:feedback, score
+
+12. 마일리지 신청 - 관리자 페이지 (select) - MileageApply.php
+mileageapply
+: 제목, m_usetime, m_content
+(update)
+mileageapply
+:managerok
+
+13. 공유내역 - 중고 물품 공유 (select)
+Auctions
+: title, price
+AuctionsApply
+: studentid => auctionsid -> auctions의 title, price
+studentid => transactionok -> auctionsid -> auctions의 title, price
+auctions-> studentid -> auctionsid 같은거 검색
+
+14. 공유내역 - 재능 공유 (select)
+ShareTalent
+: title
+ShareTalentApply
+:title, (applyornot이용해서 구분)
+
+
+
+
+
+
+
