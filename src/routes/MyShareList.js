@@ -4,7 +4,7 @@ class MyShareList extends React.Component{
     render(){
         return(
             <div>
-
+hi
             </div>
         );
     }
