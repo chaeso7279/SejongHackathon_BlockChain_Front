@@ -1,10 +1,45 @@
 
 .header{
-    font-family:'NanumSquare R'
+    font-family:'NanumSquare R';
+    width:120rem;
+    height:8.563rem;
+}
+
+.talent{
+    margin-top:8.563rem;
+    width:100vw;
 }
 
 
 .talent_banner{
     margin-top:8.563rem;
-    width: 100%;
+    width: 100vw;
+    height:36.69rem;
+}
+
+.talent_banner img{
+    width: 120rem;
+    position:absolute;
+    z-index:1;
+}
+
+.talent_canvas{
+    width:81.19rem;
+    height: 130.9rem;
+    margin: -13.56rem  19.38rem 0rem 19.44rem;
+    padding: 16.19rem 2.063rem 1.75rem;
+    box-shadow: 0 0.1875rem 0.375em 0 rgba(0,0,0,0.16);
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 2;
+
+    font-family: 'GmarketSans L';
+    font-size: 1.25rem;
+}
+
+.talent_canvas img{
+    background-image: '../IMG/talent_img1.png';
+    width:62.56rem;
+    height:11.88rem;
+    margin: -17rem 9.313rem 5.125rem 9.313rem;
 }
