@@ -1,0 +1,78 @@
+
+.header{
+    font-family:'NanumSquare R';
+    width:120rem;
+    height:8.563rem;
+    position: absolute;
+    z-index: 10;
+}
+
+.talent{
+    margin-top:8.563rem;
+    width:100vw;
+}
+
+
+.talent_banner{
+    margin-top:8.563rem;
+    width: 100vw;
+    height:36.69rem;
+}
+
+.talent_canvas{
+    width:81.19rem;
+    height: 130.9rem;
+    margin: -13.56rem  19.38rem 0rem 19.44rem;
+    box-shadow: 0 0.1875rem 0.375em 0 rgba(0,0,0,0.16);
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 2;
+
+    font-family: 'GmarketSans L';
+    font-size: 1.25rem;
+}
+
+.mypage_txt{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-family:'GmarketSans B';
+    font-size: 1rem;
+    margin-bottom: -9rem;
+}
+.mypage_txt2{
+    margin-top: -2rem;
+    margin-left: 5rem;
+    font-family:'GmarketSans B';
+    font-size: 1rem;
+    margin-bottom: -6rem;
+}
+
+.grid1{
+    height: 12rem;
+    width: 23rem;
+    background-color: rgba(237, 237, 237, 0.57);
+    margin: 10rem 0rem 5rem 5rem;
+    display: inline-block;
+}
+
+.grid2{
+    height: 12rem;
+    width: 70rem;
+    background-color: rgba(237, 237, 237, 0.57);
+    margin: 7rem 7rem 5rem 5rem;
+}
+
+.grid3{
+    height: 12rem;
+    width: 70rem;
+    background-color: rgba(237, 237, 237, 0.57);
+    margin: 7rem 7rem 5rem 5rem;
+}
+
+.grid4{
+    height: 12rem;
+    width: 70rem;
+    background-color: rgba(237, 237, 237, 0.57);
+    margin: 7rem 7rem 5rem 5rem;
+}
+
