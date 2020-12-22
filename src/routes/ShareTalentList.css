@@ -12,7 +12,7 @@
 
 
 .talent_banner{
-    margin-top:8.563rem;
+    /* margin-top:8.563rem; */
     width: 100vw;
     height:36.69rem;
 }
@@ -27,7 +27,6 @@
     width:81.19rem;
     height: 130.9rem;
     margin: -13.56rem  19.38rem 0rem 19.44rem;
-    padding: 16.19rem 2.063rem 1.75rem;
     box-shadow: 0 0.1875rem 0.375em 0 rgba(0,0,0,0.16);
     background-color: #ffffff;
     position: absolute;
@@ -37,9 +36,42 @@
     font-size: 1.25rem;
 }
 
-.talent_canvas img{
-    background-image: '../IMG/talent_img1.png';
-    width:62.56rem;
-    height:11.88rem;
-    margin: -17rem 9.313rem 5.125rem 9.313rem;
+.talent_img{
+    width:56.94rem;
+    height:6.25rem;
+    margin: 2.188rem 12.13rem 5.125rem 12.13rem;
+
+    color:white;
+    background-color:#324755;
+    font-size:1.25rem;
+    font-family: 'GmarketSans L';
+    text-align: center;
+
+    border-radius: 0.625rem;
+    border: solid 1px #324755;
+    outline:0;
+
 }
+
+.talent_txt{
+    margin-top: 2rem;
+    line-height: 10%;
+}
+
+.talent_btn_add{
+    width: 11.13rem;
+    height: 3.125rem;
+    
+    color:#324755;
+    background-color:white;
+    font-size:1.25rem;
+    font-family: 'GmarketSans B';
+    
+    padding: 0.3125rem 0.625rem;
+    
+    border-radius: 0.625rem;
+    border: solid 1px #324755;
+    outline:0;
+    box-shadow: 0.1875rem 0 3.125rem 0.3125rem lightgrey;
+}
+
