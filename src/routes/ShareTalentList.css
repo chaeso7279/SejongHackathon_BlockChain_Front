@@ -75,13 +75,13 @@
     padding: 0.3125rem 0.625rem;
     
     border-radius: 0.625rem;
-    border: solid 1px #324755;
+    border: solid 1px white;
     outline:0;
     box-shadow: 0.1875rem 0 3.125rem 0.3125rem lightgrey;
 }
 
 
-
+/* 
 .grid{
     width:77.06rem;
     display: grid;
@@ -90,7 +90,7 @@
     row-gap: 4.313;
     column-gap: 3.188rem;
 
-}
+} */
 
 
 
@@ -127,4 +127,20 @@
     text-align: center;
     
     
+}
+/* 
+.grid_wrapper{
+    width: 20.06rem;
+    height: auto;
+    margin: auto auto auto auto;
+} */
+
+.grid{
+    width:20.06rem;
+    height: 27.56rem;
+    padding-right: 3.188rem;
+    padding-bottom: 4.313rem;
+    display: flex;
+    /* clear: both; */
+    flex-direction:s row;
 }
