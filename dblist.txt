@@ -44,7 +44,7 @@ money
 마일리지apply
 : 제목, managerok, m_milieage
 
-9. 마일리지 신청 페이지 (select)
+9. 마일리지 신청 페이지 (select) - MileageApply.php
 mileageapply
 : m_applyID, 제목, 학번->이름, 날짜  
 

@@ -12,7 +12,7 @@ class Navigation extends React.Component{
                 <div className="nav">
                     <Link to ="/mysharelist">내 공유 내역</Link>
                     <Link to ="/mileage_application">마일리지 신청</Link>
-                    <Link to ="/mypage">마이페이지</Link>
+                    <Link to ="/db">마이페이지</Link>
                 </div>
             </div>
         );

@@ -1,0 +1,10 @@
+{
+    "development" : {
+        "username": "ubuntu",
+        "password": "1234",
+        "database": "SejongShare",
+        "host": "15.164.102.34",
+        "port": "3306",
+        "dialect": "mysql"
+    }
+}

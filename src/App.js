@@ -10,6 +10,8 @@ import ShareItemDetail from './routes/ShareItemDetail';
 import ShareTalentList from './routes/ShareTalentList';
 import ShareTalentDetail from './routes/ShareTalentDetail';
 import Navigation from './components/Navigation';
+import DBtest from './routes/dbtest';
+import axios from 'axios';
 
 function App() {
   let router;
@@ -28,8 +30,13 @@ function App() {
         <Route path="/share_item_detail" component={ShareItemDetail}/>
         <Route path="/share_talent_list" component={ShareTalentList}/>
         <Route path="/share_talent_detail" component={ShareTalentDetail}/>
+        <Route path="/db" component={DBtest}/>
+        
       </HashRouter>
   );
+
+
 }
+
 
 export default App;
