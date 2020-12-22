@@ -1,0 +1,90 @@
+.header{
+    font-family:'NanumSquare R';
+    width:120rem;
+    height:8.563rem;
+    position: absolute;
+    z-index: 10;
+}
+
+.sharelist_banner{
+    margin-top:8.563rem;
+    width: 100vw;
+    height:36.69rem;
+}
+
+.sharelist_banner img{
+    width: 120rem;
+    position:absolute;
+    z-index:1;
+}
+
+.sharelist_canvas{
+    width:81.19rem;
+    height: 130.9rem;
+    margin: -13.56rem  19.38rem 0rem 19.44rem;
+    box-shadow: 0 0.1875rem 0.375em 0 rgba(0,0,0,0.16);
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 2;
+
+    font-family: 'GmarketSans L';
+    font-size: 1.25rem;
+}
+.sharelist_selectTap{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.813rem;
+
+    vertical-align: middle;
+    text-align: center;
+
+    /* border: 0.0625rem solid #342755; */
+    
+    background-color: #342755;
+}
+.sharelist_itemTap{
+    width: 21.25rem;
+    height: 5.063rem;
+    background-color: white;
+
+    border: 0.0625rem solid #342755;
+
+    font-family:'GmarketSans M';
+    font-size:  1.563rem;
+
+    cursor:pointer;
+}
+.sharelist_talentTap{
+    width: 21.25rem;
+    height: 5.063rem;
+
+    background-color: white;
+
+    border: 0.0625rem solid #342755;
+
+    font-family:'GmarketSans M';
+    font-size:  1.563rem;
+
+    cursor:pointer;
+}
+
+.sellList_area , .purchaseList_area, .applyList_area{
+    text-align: center;
+}
+
+.sellList_title , .purchaseList_title, .applyList_title{
+    font-family: 'GmarketSans B';
+    font-size: 1.875rem;
+
+    margin-top:2.188rem;
+}
+
+.sellList_content , .purchaseList_content, .applyList_content{
+    width: 77.19rem;
+    height: 17.88rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #707070;
+}
