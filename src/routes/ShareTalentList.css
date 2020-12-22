@@ -3,6 +3,8 @@
     font-family:'NanumSquare R';
     width:120rem;
     height:8.563rem;
+    position: absolute;
+    z-index: 10;
 }
 
 .talent{
@@ -12,7 +14,7 @@
 
 
 .talent_banner{
-    /* margin-top:8.563rem; */
+    margin-top:8.563rem;
     width: 100vw;
     height:36.69rem;
 }

@@ -1,14 +1,12 @@
 import React from 'react';
-import LiginBar from '../components/LoginBar';
 import './ShareTalentList.css';
 import {Link, Switch} from 'react-router-dom';
-import LoginBar from '../components/LoginBar';
-import Navigation from '../components/Navigation';
 
 
 import banner from '../IMG/talentbanner.png';
 import img1 from '../IMG/talent_img1.png';
 import { Button } from '@material-ui/core';
+import TopBar from '../components/TopBar';
 
 
 class ShareTalentList extends React.Component{
@@ -23,8 +21,7 @@ class ShareTalentList extends React.Component{
         return(
             <div>
                 <div className="header">
-                    <LoginBar />
-                    <Navigation />
+                    <TopBar/>
                 </div>
                 <div className="talent_banner">
                     <img src={banner}></img>
@@ -43,7 +40,6 @@ class ShareTalentList extends React.Component{
                     </Link>
                     
                 </div>  {/*talent_canvas*/}
-
             </div>
         );
     }

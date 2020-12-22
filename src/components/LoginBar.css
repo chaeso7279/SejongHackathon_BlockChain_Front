@@ -2,12 +2,35 @@
     font-family: 'NanumSquare R'
 }
 
-.login_Bar span{
-    margin-left: 0.625rem
+.unlogin_Bar{
+    font-family: 'NanumSquare R'
+}
+.unlogin_Bar span{
+    margin-left: 0.625rem;
+}
+.btn_login:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn_join:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
+
+.login_coin_wraper{
+    margin-left: 0.625rem;
+}
+
+.login_ic_coin{
+    width: 0.781rem;
+    height: 0.938rem;
+}
+.login_coin_amount{
+    margin-left: 0.1875rem;
+}
 .btn_charge{
-    color: '#707070';
+    color: #707070;
     background-color: white;
     font-size: 0.9375rem;
     font-family: 'NanumSquare R';
@@ -18,6 +41,13 @@
     border-radius: 0.625rem;
     border: solid 1px #707070;
     outline:0;
+
+    cursor: pointer;
+}
+
+.btn_charge:hover{
+    background-color: #707070;
+    color: white;
 }
 
 .btn_logout{
@@ -32,4 +62,15 @@
     border-radius: 0.625rem;
     border: solid 1px #324755;
     outline:0;
+
+    cursor: pointer;
+}
+
+.btn_logout:hover{
+    background-color: #707070;
+    color: white;
+}
+
+.login_userName{
+    margin-left: 0.625rem;
 }

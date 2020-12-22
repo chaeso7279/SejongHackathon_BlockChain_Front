@@ -9,13 +9,11 @@ import ShareItemList from './routes/ShareItemList';
 import ShareItemDetail from './routes/ShareItemDetail';
 import ShareTalentList from './routes/ShareTalentList';
 import ShareTalentDetail from './routes/ShareTalentDetail';
+import LoginBar from './components/LoginBar';
 
 function App() {
   let router;
-  const navigate = (pageName = '') =>{
-    router.history.push('/'+pageName);
-  }
-
+  console.log("width: "+ window.innerWidth);
 
   return (
       <HashRouter ref = {(r)=>{router = r;}}>
