@@ -3,15 +3,7 @@
     height: 200vh;
 }
 
-.topbar{
-    position:fixed;
-
-    left:0;
-    top:0;
-}
-
-
 .main_banner{
     margin-top: 8.563rem;
-    width: 100vw;
+    width: 100%;
 }

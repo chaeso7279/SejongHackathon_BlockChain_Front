@@ -1,11 +1,11 @@
 import React from 'react';
-import mainbanner from '../IMG/main_banner.png'
+import TopBar from '../components/TopBar'
 
 class MyPage extends React.Component{
     render(){
         return(
             <div>
-                
+                <TopBar/>
             </div>
         );
     }

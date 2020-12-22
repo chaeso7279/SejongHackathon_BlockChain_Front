@@ -1,7 +1,12 @@
 .topbar{
+    position:fixed;
+
+    left:0;
+    top:0;
+
     background-color: white;
 
-    width: 100vw;
+    width: 120rem;
 }
 
 .topbar_wraper{
@@ -19,4 +24,11 @@
 }
 .topbar_nav{
     clear: both;
+}
+
+.sejong_logo{
+    margin-left: 10.25rem;
+    margin-top: 2.75rem;
+
+    width: 16.38rem;
 }
