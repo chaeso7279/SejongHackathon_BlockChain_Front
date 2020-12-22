@@ -28,14 +28,10 @@ class LoginBar extends React.Component{
 
     UnLoginedLoginbar = () => (
         <div className="unlogin_Bar">
-            <span className="btn_login"
+            <button className="btn_login"
                 onClick={this.login}>
                 로그인
-            </span>
-            <span>/</span>
-            <span className="btn_join">
-                회원가입
-            </span>
+            </button>
         </div>
     );
 

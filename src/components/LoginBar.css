@@ -8,13 +8,17 @@
 .unlogin_Bar span{
     margin-left: 0.625rem;
 }
-.btn_login:hover{
-    text-decoration: underline;
+.btn_login{
     cursor: pointer;
+
+    border-radius: 0.625rem;
+    border: solid 1px #707070;
+    outline:0;
 }
-.btn_join:hover{
-    text-decoration: underline;
-    cursor: pointer;
+
+.btn_login:hover{
+    background-color: #707070;
+    color: white;
 }
 
 

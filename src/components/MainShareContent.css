@@ -1,0 +1,25 @@
+.maincontent_item{
+    margin-top: 2.188rem;   
+    text-align: center;
+}
+.maincontent_talent{
+    margin-top: 4.063rem;
+    text-align: center;
+}
+.maincontent_title {
+    font-family: 'GmarketSans B';
+    font-size: 1.875rem;
+}
+
+.maincontent_describe{
+    font-family: 'NanumSquare L';
+    font-size: 1.375rem;
+}
+
+.maincontent_content_item, .maincontent_content_talent{
+    margin-right: auto;
+    margin-left: auto;
+    width: 77.06rem;
+    height: 23.25rem;
+    background-color: black;
+}
