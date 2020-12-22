@@ -64,6 +64,9 @@
     width: 11.13rem;
     height: 3.125rem;
     
+    margin-top: 1.25rem;
+    margin-left: 57.5rem;
+
     color:#324755;
     background-color:white;
     font-size:1.25rem;
@@ -77,3 +80,51 @@
     box-shadow: 0.1875rem 0 3.125rem 0.3125rem lightgrey;
 }
 
+
+
+.grid{
+    width:77.06rem;
+    display: grid;
+    grid-template-columns: 23.25rem;
+    grid-template-rows: 16.88rem;
+    row-gap: 4.313;
+    column-gap: 3.188rem;
+
+}
+
+
+
+.grid_poster{
+    width: 16.88rem;
+    height: 23.25rem;
+
+    background-color: rgba(237, 237, 237, 0.57);
+    margin-left: 2.063rem;
+}
+
+.grid_picture{
+    width: 15.88rem;
+    height: 18.13rem;
+
+    margin-left: 0.5rem;
+
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_picture img{
+    width:15.88rem;
+    height:auto;
+}
+
+.grid_title{
+    width:16.88rem;
+    font-size:1.25rem;
+    font-family: 'GmarketSans M';
+    text-align: center;
+    
+    
+}
