@@ -9,7 +9,8 @@ import ShareItemList from './routes/ShareItemList';
 import ShareItemDetail from './routes/ShareItemDetail';
 import ShareTalentList from './routes/ShareTalentList';
 import ShareTalentDetail from './routes/ShareTalentDetail';
-import DBTest from './routes/DBTest';
+import Register from './routes/Register';
+import Login from './routes/Login';
 import LoginBar from './components/LoginBar';
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
         <Route path="/share_talent_list" component={ShareTalentList}/>
         <Route path="/share_talent_detail" component={ShareTalentDetail}/>
 
-        <Route path = "/dbtest" component = {DBTest}/>
+        <Route path = "/register" component = {Register}/>
+        <Route path = "/login" component = {Login}/>
       </HashRouter>
   );
 }
